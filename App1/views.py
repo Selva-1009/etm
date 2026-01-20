@@ -14,7 +14,7 @@ def is_user(user):
     return not user.is_staff
 
 def app_interface(request):
-    return render(request,'App_interface.html')
+    return render(request,'App_interface.html'
 
 
 def Register(request):
@@ -212,6 +212,7 @@ def Log_out(request):
 
 
     
+
 
 
 
